@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vintage Female Collections</title>
+    <link rel="stylesheet" href="styles.css">
+     <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Optional: Bootstrap Icons (if needed) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        :root {
+        --cream: #f4f1e1;         
+        --soft-peach: #f1c6a1;      
+        --dusty-rose: #b34d43;      
+        --olive-green: #8e8c6d;     
+        --seafoam-green: #a8d8d8;   
+        --rust-red: #5b2c2f;        
+        --warm-grey: #4b4b4b;       
+        --antique-gold: #9e8e58;  
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f3f3f3;
+            color: var(--cream);
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            color: var(--rust-red);
+            font-family: 'Poppins', sans-serif;
+            font-style: italic;
+            padding-top: 25px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 45px;
+            font-weight: bold;
+        }
+        p{
+            font-size: 25px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .category-container {
+
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 0px 10px;
+        }
+        .category {
+            background-color: var(--antique-gold);
+            margin: 50px;
+            padding: 15px;
+            width:20%;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .category:hover {
+            transform: scale(1.05);
+        }
+        .category img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .category h3 {
+            margin: 15px 0 10px 0;
+            color: var(--cream);
+        }
+        .category p{
+            padding-top: 10px;
+            color: var(--cream);
+        }
+        .shop-btn {
+            background-color: var(--rust-red);
+            color: var(--cream);
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .shop-btn:hover{
+            background-color: var(--dusty-rose);
+        }
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+    <div  class="header">
+        <div class="row">
+            <div class="col-5">
+                <h1 class="logo">Retro Revival </h1> 
+            </div>
+            <div class="col-7">
+                <nav class="navbar">
+                    <a href="home.html" class="active">Home</a>
+                    <a href="shop.html">Shop</a>
+                    <a href="collection.html">Collections</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="cart.html"><i class='bx bxs-cart'></i></a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <header>
+        <h1>Vintage Female Collections</h1>
+        <p>Discover timeless elegance with our Vintage Women’s Collection, featuring carefully curated pieces that blend classic style with modern sophistication. From retro-inspired dresses to vintage accessories, each item tells a story of fashion history, offering a unique touch of nostalgia and charm.</p>
+    </header>
+
+    <section class="category-container">
+        <div class="category">
+            <img src="img1.jpg" alt="Sarees">
+            <p>Explore a wide range of vintage sarees.</p>
+            <button class="shop-btn">Shop Now</button>
+        </div>
+        <div class="category">
+            <img src="img2.jpg" alt="Kurtis">
+            <p>Shop for elegant kurtis in traditional designs.</p>
+            <button class="shop-btn">Shop Now</button>
+        </div>
+        <div class="category">
+            <img src="img3.webp" alt="Skirts">
+            <p>Browse through our selection of vintage skirts.</p>
+            <button class="shop-btn">Shop Now</button>
+        </div>
+       
+    </section>
+</body>
+</html>
